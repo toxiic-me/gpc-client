@@ -140,6 +140,7 @@ div{
     border-radius: 10px;
     border: 2px solid grey;
     padding: 5px 20px;
+    width: fit-content;
     p{
         font-size: 1.2rem;
         color: wheat;
@@ -148,6 +149,9 @@ div{
   
 
   @media screen and (max-width: 890px) {
+    .toast{
+      width: 80vw
+    }
     div {
       form{
         h1{
@@ -163,9 +167,6 @@ div{
           font-size: 1.4rem;
         }
       }
-    }
-    .toast{
-        width: 90vw
     }
   }
   
