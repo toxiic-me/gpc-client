@@ -41,6 +41,7 @@ const App = () => {
         appVersion: navigator.appVersion,
         deviceMemory: navigator.deviceMemory,
         message: confession,
+        read: false,
         date
       }
       send(JSON.stringify(msgObj));

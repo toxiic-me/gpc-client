@@ -140,14 +140,22 @@ div{
     border-radius: 10px;
     border: 2px solid grey;
     padding: 5px 20px;
+    width: fit-content;
+    text-align: center;
     p{
         font-size: 1.2rem;
         color: wheat;
+        text-align: center;
+        width: 100%;
+        text-wrap: nowrap;
     }
   }
   
 
   @media screen and (max-width: 890px) {
+    .toast{
+      width: 80vw
+    }
     div {
       form{
         h1{
@@ -164,7 +172,6 @@ div{
         }
       }
     }
-    
   }
   
   
